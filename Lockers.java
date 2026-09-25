@@ -6,7 +6,12 @@ Puzzle involving opening and closing lockers. Perfect squares should be the rema
 */
 
 public class Lockers{
-    public static main void(String[] args){
-
+    public static void main(String[] args){
+        Boolean [] lockers= new Boolean[100];
+        //default value was null instead of false
+        for(int i=0; i<100;i++){
+            lockers[i]=false;
+        }
+        System.out.print(lockers[68]);
     }
 }
