@@ -20,12 +20,12 @@ public class Lockers{
                 lockers[counter]=!lockers[counter];
                 counter+=studentNum;
             }
-            counter=studentNum-1;
+            counter=studentNum;
         }
         for(int i=0;i<100;i++){
             studentNum=i+1;
             if(lockers[i]){
-                System.out.print("Locker "+studentNum+" is open");
+                System.out.println("Locker "+studentNum+" is open");
             }
         }
     }
